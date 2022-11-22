@@ -1515,3 +1515,11 @@ const emoji = document.querySelector(".emoji");
 setInterval(() => {
   emoji.textContent = getRandomElementFromArray(emojis);
 }, 1000);
+
+const documentHeight = () => {
+  const doc = document.documentElement
+  doc.style.setProperty('--doc-height', `${window.innerHeight}px`)
+ }
+ window.addEventListener(‘resize’, documentHeight)
+ documentHeight()
+ 

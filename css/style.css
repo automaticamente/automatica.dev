@@ -6,13 +6,9 @@
   box-sizing: border-box;
 }
 
-html {
-  height: -webkit-fill-available;
-}
-
 body {
   min-height: 100vh;
-  min-height: -webkit-fill-available;
+  min-height: var(--doc-height);
 
   background-color: #c2395f;
   color: white;
