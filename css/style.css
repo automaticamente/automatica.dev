@@ -38,7 +38,7 @@ header > p {
 }
 
 header > p.emoji {
-  margin-top: 2rem;
+  margin: 2rem 0;
   font-size: clamp(4rem, 8vw, 8rem);
 }
 
