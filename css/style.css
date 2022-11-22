@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #c2395f;
+  color: white;
+  font-family: "Alegreya", serif;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  flex-grow: 1;
+}
+
+header > h1 {
+  font-size: clamp(4rem, 16vw, 12rem);
+  line-height: clamp(4rem, 16vw, 12rem);
+  font-weight: 700;
+}
+
+header > p {
+  font-size: clamp(2rem, 6vw, 4rem);
+  font-weight: 400;
+}
+
+header > p.emoji {
+  margin-top: 2rem;
+  font-size: clamp(4rem, 8vw, 8rem);
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+footer a {
+  color: white;
+  font-size: clamp(1rem, 6vw, 2rem);
+  text-decoration: none;
+}
