@@ -8,6 +8,8 @@
 
 body {
   min-height: 100vh;
+  min-height: -webkit-fill-available;
+
   background-color: #c2395f;
   color: white;
   font-family: "Alegreya", serif;
