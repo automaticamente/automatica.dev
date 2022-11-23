@@ -38,7 +38,14 @@ header > p.emoji {
   font-size: clamp(6rem, 10vw, 10rem);
 }
 
-footer {
+footer ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 1rem;
+}
+
+footer ul li {
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -46,6 +53,6 @@ footer {
 
 footer a {
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-decoration: none;
 }
