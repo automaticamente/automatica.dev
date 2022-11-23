@@ -35,7 +35,7 @@ header > p {
 
 header > p.emoji {
   margin: 2rem 0;
-  font-size: clamp(4rem, 8vw, 8rem);
+  font-size: clamp(6rem, 10vw, 10rem);
 }
 
 footer {
@@ -46,6 +46,6 @@ footer {
 
 footer a {
   color: white;
-  font-size: clamp(1rem, 6vw, 2rem);
+  font-size: 2rem;
   text-decoration: none;
 }
